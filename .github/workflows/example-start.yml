@@ -14,7 +14,8 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Cypress tests
-        uses: ./
+        # uses: ./
+        uses: cypress-io/github-action@v2
         with:
           working-directory: examples/start
           build: npm install typescript
