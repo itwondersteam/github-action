@@ -1,5 +1,8 @@
 name: example-chrome
-on: [push]
+on:
+    push:
+        branches:
+            - cypress-example-chrome
 jobs:
   tests:
     runs-on: ubuntu-20.04

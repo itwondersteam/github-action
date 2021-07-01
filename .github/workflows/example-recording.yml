@@ -1,5 +1,8 @@
 name: example-recording
-on: [push]
+on:
+    push:
+        branches:
+            - cypress-example-recoding
 jobs:
   parallel:
     runs-on: ubuntu-20.04

@@ -1,5 +1,8 @@
 name: example-edge
-on: [push]
+on:
+    push:
+        branches:
+            - cypress-example-edge
 jobs:
   tests:
     runs-on: windows-latest

@@ -1,5 +1,8 @@
 name: example-basic
-on: [push]
+on:
+    push:
+        branches:
+            - cypress-example-basic
 jobs:
   # note: Ubuntu 16 probably works, but is deprecated
 

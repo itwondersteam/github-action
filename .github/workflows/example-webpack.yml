@@ -1,5 +1,8 @@
 name: example-webpack
-on: [push]
+on:
+    push:
+        branches:
+            - cypress-example-webpack
 jobs:
   wait:
     runs-on: ubuntu-20.04

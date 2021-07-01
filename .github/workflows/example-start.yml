@@ -1,5 +1,8 @@
 name: example-start
-on: [push]
+on:
+    push:
+        branches:
+            - cypress-example-start
 jobs:
   start:
     # example with web application build,

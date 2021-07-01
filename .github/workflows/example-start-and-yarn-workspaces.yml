@@ -1,5 +1,8 @@
 name: example-start-and-yarn-workspaces
-on: [push]
+on:
+    push:
+        branches:
+            - cypress-example-start-and-yarn-workspaces
 jobs:
   single:
     # the example has Yarn workspace in its "root" folder
